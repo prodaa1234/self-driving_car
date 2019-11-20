@@ -13,4 +13,7 @@ mcal_interrupts.h  \
 mcal_spi.h  \
  mcal_timers.h  \
 mcal_encoder.h  \
-asw_com.h 
+asw_com.h  \
+rte.h  \
+hal_dc.h  \
+asm_move.h 

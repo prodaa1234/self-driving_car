@@ -8,11 +8,16 @@
 #ifndef HAL_DC_H
 #define	HAL_DC_H
 
+#include "general_types.h"
+
+
 #ifdef	__cplusplus
-extern "C" {
+
 #endif
 
-
+extern void HAL_DcMotorInit();
+extern void HAL_SetDcMotorDir(BOOL Dir);
+extern void HAL_vSetMotorDuty();
 
 
 #ifdef	__cplusplus

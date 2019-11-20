@@ -11,17 +11,20 @@
 #include "mcal_init.h"
 #include "asw_com.h"
 #include "light_sig.h"
+#include "rte.h"
+#include "asm_move.h"
 T_U16 contor = 0;
 
 void TASK_Inits()
 {
     MCAL_vInit();
     GPIO_u8SetPortPin(PORT_A, 10, DIGITAL ,OUTPUT);
+    ASM_DcMotorInit();
 }
 
 void TASK_1ms()
 {
-    
+   ASM_SetDcMotorDirSpeed();
 }
 
 void TASK_5ms()
