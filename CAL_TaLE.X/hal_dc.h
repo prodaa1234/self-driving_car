@@ -17,7 +17,7 @@
 
 extern void HAL_DcMotorInit();
 extern void HAL_SetDcMotorDir(BOOL Dir);
-extern void HAL_vSetMotorDuty();
+extern void HAL_vSetMotorDuty(T_F16 DutyCycle);
 
 
 #ifdef	__cplusplus

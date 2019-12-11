@@ -16,4 +16,5 @@ mcal_encoder.h  \
 asw_com.h  \
 rte.h  \
 hal_dc.h  \
-asm_move.h 
+hal_servo.h  \
+ asm_move.h 

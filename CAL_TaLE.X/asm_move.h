@@ -77,4 +77,4 @@ extern "C" {
 #endif	/* XC_HEADER_TEMPLATE_H */
 
 extern void ASM_DcMotorInit();
-extern void ASM_SetDcMotorDirSpeed();
+extern void ASM_SetDcMotorDirSpeed(BOOL Dir,T_F16 DutyCycle);

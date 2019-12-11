@@ -1,9 +1,3 @@
-/*
- * File:   asm_move.c
- * Author: proda
- *
- * Created on November 20, 2019, 7:25 PM
- */
 
 
 #include "xc.h"
@@ -14,10 +8,10 @@ void ASM_DcMotorInit()
     RTE_DcMotorInit();
 }
 
-void ASM_SetDcMotorDirSpeed()
+void ASM_SetDcMotorDirSpeed(BOOL Dir,T_F16 DutyCycle)
 {
-    RTE_SetDcMotorDir(0);
-    RTE_vSetMotorDuty();
+    RTE_SetDcMotorDir(Dir);
+    RTE_vSetMotorDuty(DutyCycle);
 }
 
 

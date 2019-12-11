@@ -1,6 +1,6 @@
 #include "xc.h"
 #include "mcal_pwm.h"
-T_F16 DutyCycle=30;
+
 
 void HAL_DcMotorInit()
 {
@@ -11,7 +11,7 @@ void HAL_SetDcMotorDir(BOOL Dir){
     GPIO_u8WritePortPin(PORT_A,9,Dir);
 }
 
-void HAL_vSetMotorDuty()
+void HAL_vSetMotorDuty(T_F16 DutyCycle)
 {
     PWM1_vSetDuty(DutyCycle,2);
 }

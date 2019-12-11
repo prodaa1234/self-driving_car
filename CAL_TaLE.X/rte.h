@@ -34,7 +34,7 @@
 #include <xc.h>
 
 #include "hal_dc.h" // include processor files - each processor file is guarded.  
-
+#include "hal_servo.h"
 // TODO Insert appropriate #include <>
 
 // TODO Insert C++ class definitions if appropriate
@@ -81,3 +81,4 @@ extern "C" {
 #define RTE_DcMotorInit HAL_DcMotorInit
 #define RTE_SetDcMotorDir HAL_SetDcMotorDir
 #define RTE_vSetMotorDuty HAL_vSetMotorDuty
+#define RTE_ServoMotor HAL_ServoMotor

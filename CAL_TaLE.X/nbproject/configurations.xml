@@ -23,6 +23,7 @@
       <itemPath>hal_dc.h</itemPath>
       <itemPath>rte.h</itemPath>
       <itemPath>asm_move.h</itemPath>
+      <itemPath>hal_servo.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -48,6 +49,7 @@
       <itemPath>light_sig.c</itemPath>
       <itemPath>hal_dc.c</itemPath>
       <itemPath>asm_move.c</itemPath>
+      <itemPath>hal_servo.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -255,6 +257,7 @@
         <property key="UART 1" value="true"/>
         <property key="UART 2" value="true"/>
         <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="firmware.download.all" value="false"/>
         <property key="hwtoolclock.frcindebug" value="false"/>
         <property key="memories.aux" value="false"/>
         <property key="memories.bootflash" value="true"/>
